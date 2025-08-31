@@ -8,6 +8,7 @@ packages = [{include = "app", from = "src"}]
 
 [tool.poetry.dependencies]
 python = "^3.12"
+fastapi = {extras = ["standart"], version = "^0.116.1"}
 
 
 [build-system]
